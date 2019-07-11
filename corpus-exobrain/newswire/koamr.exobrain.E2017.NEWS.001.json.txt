@@ -1,0 +1,252 @@
+# Korean AMR (Abstract Meaning Representation) pilot release
+# Based on Exobrain corpus (ETRI), Newswire, 30 Sentences from E2017.NEWS.001.json
+# generated on Fri July 12, 2019
+
+
+
+# ::id snt0.e2017.news.001 ::date 2019-07-12T01:09 ::annotator gabrielle ::preffered
+# ::snt ' 13월의 보너스냐 세금폭탄이냐 ' 연말정산서비스 15일 시작 .
+# ::note multi-sentence 기준, 의문문 기준 확인 필요
+
+(m / multi-sentence 
+	:snt1 (a / amr-choice
+		:op1 (보 / 보너스
+			:mod (d / date-entity :month 13))
+		:op2 (세 / 세금
+			:mod (폭 / 폭탄)))
+	:snt2 (시 / 시작-01
+		:ARG1 (연 / 연말정산서비스)
+		:time (date-entity 
+			:day 15)))
+
+
+
+# ::id snt1.e2017.news.001 ::date 2019-07-12T01:12 ::annotator gabrielle ::preffered
+# ::snt 지난해 소득분에 대한 연말정산 서비스가 15일부터 시작된다 .
+# ::note 명사 연쇄 구성을 mod로 처리하는 문제 / 대하-를 처리하는 방식으로 :topic의 용도를 한정할 것인지
+
+(시 / 시작-01
+	:ARG1 (서 / 서비스
+		:mod (연 / 연말정산)
+		:topic (소 / 소득분
+			:time (지 / 지난해)))
+	:time (d / date-entity
+		:day 15))
+
+
+
+# ::id snt2.e2017.news.001 ::date 2019-07-12T01:14 ::annotator gabrielle ::preffered
+# ::snt 올해부터 4대 보험료 자료도 홈택스에서 조회할 수 있어 편리해졌지만 시력 보정용 안경이나 교복 구입비 , 일부 종교단체 기부금 등은 근로자가 따로 꼼꼼히 챙겨야 13월의 세금 폭탄 대신 보너스를 받을 수 있다 .
+# ::note '13월의 세금 폭탄', '4대 보험료 자료' 처리 지침 필요. possible-01, cause-01, instead-of-91 허용 여부. 꼼꼼히와 같이 용언의 부사형으로 보이더라도 부사로 등재된 단어라면 부사로 취급, concession의 depth, 보정-*
+
+(가 / 가능-01
+	:ARG1 (받 / 받-01
+		:ARG0 (근 / 근로자)
+		:ARG1 (보 / 보너스
+			:ARG2-of (대 / 대신-01
+				:ARG1 (폭 / 폭탄
+					:mod (세 / 세금)
+					:mod (d / date-entity :month 13))))
+		:condition (챙 / 챙기-01
+			:ARG0 근
+			:ARG1 (안 / 안경
+				:purpose (보2 / 보정-*
+					:ARG1 (시 / 시력)))
+			:ARG1 (구 / 구입비
+				:purpose (교 / 교복))
+			:ARG1 (기 / 기부금
+				:beneficiary (종 / 종교단체
+					:mod (일 / 일부)))
+			:mod (따 / 따로)
+			:mod (꼼 / 꼼꼼히)))
+	:concession (편 / 편리-01
+		:cause (가2 / 가능-01
+			:ARG1 (조 / 조회.01
+				:ARG1 (자 / 자료
+					:mod (보 / 보험료)
+						:mod (4 / 4대))
+				:location (홈 / 홈택스))
+			:time (올 / 올해))))
+
+
+
+# ::id snt3.e2017.news.001 ::date 2019-07-12T01:28 ::annotator gabrielle ::preffered
+# ::snt 국세청은 홈택스 ( www . hometax . go . kr ) 에서 소득 · 세액공제 자료를 조회할 수 있는 ' 연말정산 간소화 서비스 ' 를 15일 오전 9시부터 개통한다고 12일 밝혔다 .
+# ::note NE-Type government-organization, url-entity 적용 여부, 홈택스 NE 처리
+
+(밝 / 밝히-01
+	:ARG0 (g / government-organization :name (이 / 이름 :op1 "국세청")
+	:ARG1 (개 / 개통-01
+		:ARG0 g
+		:ARG2 (서 / 서비스
+			:name (이 / 이름 :op1 "연말정산" :op2 "간소화" :op3 "서비스")
+			:mod (가 / 가능-01
+				:ARG1 (조 / 조회.01
+					:ARG1 (자 / 자료
+						:topic (소 / 소득)
+						:topic (세 / 세액공제))
+					:location (홈 / 홈택스
+						:ARG1-of (h / hyperlink-91
+							:ARG3 (u / url-entity :value "www.hometax.go.kr")))))
+		:time (d / date-entity :day 15 :time "09:00"))
+	:time (d / date-entity :day 12))
+
+
+
+# ::id snt4.e2017.news.001 ::date 2019-07-12T01:35 ::annotator gabrielle ::preffered
+# ::snt 맞춤형 원천징수제도에 따라 원천징수세액을 80 % 로 선택한 근로자는 그간 낸 세금이 적어 연말정산 때 세금을 더 낼 가능성이 크다 .
+# ::note 양태와 '가능성이 크다'의 차이, cause-01 reifying, ETRI 기준 내.01과 내.02가 다름
+
+(크 / 크-01
+	:ARG1 (가 / 가능성
+		:mod (내 / 내-01|납부-01
+			:ARG0 (근 / 근로자
+				:ARG0-of (선 / 선택-01
+					:ARG1 (원 / 원천징수세액
+						:quant (p / percentage-entity :value 80))
+					:mod (따 / 따르-01
+						:ARG1 (원2 / 원천징수제도
+							:mod (맞 / 맞춤형)))))
+			:ARG1 (세 / 세금)
+			:mod (더 / 더)
+			:time (연 / 연말정산)
+			:cause (적 / 적-02
+				:ARG1 (세2 / 세금
+					:ARG1-of (내2 / 내-01|납부-01
+						:ARG0 근
+						:time (그 / 그간)))))))
+
+
+
+# ::id snt5.e2017.news.001 ::date 2019-07-12T01:42 ::annotator gabrielle ::preffered
+# ::snt 반면 120 % 를 선택하면 월급에서 세금을 미리 많이 떼 연말정산 때 많이 돌려받을 수 있다 .
+# ::note ETRI SRL 주석은 .01로, KPB는 -01로. 우선순위는 KPB. 이 문장부터 적용. 이전 주석에 대한 검수 필요.
+
+(가 / 가능-01
+	:ARG1 (돌 / 돌려받-01
+		:ARG1 (세 / 세금)
+		:mod (많 / 많이)
+		:time (연 / 연말정산)
+		:cause (떼 / 떼-01
+			:ARG1 세
+			:ARG2 (월 / 월급)
+			:mod (많2 / 많이)
+			:mod (미 / 미리))
+		:condition (선 / 선택-01
+			:ARG1 (p / percentage-entity :value 120)))
+	:mod (반 / 반면))
+
+
+
+# ::id snt6.e2017.news.001 ::date 2019-07-12T01:49 ::annotator gabrielle ::preffered
+# ::snt 근로자들은 공인인증서로 홈택스에 접속해 연말정산 간소화 서비스를 통해 보장성 보험료 , 의료비 , 교육비 , 주택자금 , 기부금 등 소득 · 세액공제 증명 자료 14개 항목을 확인할 수 있다 .
+# ::note
+
+(가 / 가능-01
+	:ARG1 (확 / 확인-01
+		:ARG0 (근 / 근로자)
+		:ARG1 (자 / 자료
+			:quant 14
+			:purpose (증 / 증명-01
+				:ARG1 (소 / 소득)
+				:ARG1 (세 / 세액공제))
+			:consist-of (a / and
+				:op1 (보 / 보험료
+					:mod (보2 / 보장성))
+				:op2 (의 / 의료비)
+				:op3 (교 / 교육비)
+				:op4 (주 / 주택자금)
+				:op5 (기 / 기부금)))
+		:manner (서 / 서비스
+			:mod (간 / 간소화
+				:mod (연 / 연말정산))))
+	:condition (접 / 접속-01
+		:ARG0 근
+		:ARG1 (홈 / 홈택스)
+		:ARG2 (공 / 공인인증서)))
+
+
+
+# ::id snt7.e2017.news.001 ::date 2019-07-12T02:23 ::annotator gabrielle ::preffered
+# ::snt 올해부터는 국민연금 , 건강보험료 등 4대 보험료 자료와 이전에 대부분 제출되지 않은 폐업 의료기관의 의료비 자료도 제공돼 근로자의 편의를 높였다 .
+# ::note
+
+(높 / 높-01
+	:ARG1 (편 / 편의
+		:mod (근 / 근로자))
+	:cause (제 / 제공-01
+		:ARG1 (a / and
+			:op1 (자 / 자료
+				:mod (의 / 의료비
+					:mod (의2 / 의료기관
+						:mod (폐 / 폐업)))
+				:ARG1-of (제2 / 제출-01
+					:polarity -
+					:mod (대 / 대부분)
+					:time (이 / 이전)))
+			:op2 (자2 / 자료
+				:mod (보 / 보험료
+					:mod (4 / 4대))
+				:consist-of (a / and
+					:op1 (건 / 건강보험료)
+					:op2 (국 / 국민연금))))
+		:time (올 / 올해)))
+
+
+
+# ::id snt8.e2017.news.001 ::date 2019-07-12T02:40 ::annotator gabrielle ::preffered
+# ::snt 다만 보청기나 휠체어 같은 장애인 보장구 구입비 , 시력 보정용 안경 · 콘택트렌즈 구입비 , 교복 · 체육복 구입비 , 취학 전 아동 학원비 , 일부 기부금은 조회되지 않을 수 있다 .
+# ::note
+
+(가 / 가능-01
+	:mod (다 / 다만)
+	:ARG1 (조 / 조회.01
+		:polarity -
+		:ARG1 (a / and
+			:op1 (구 / 구입비
+				:mod (보 / 보장구
+					:mod (장 / 장애인)
+					:consist-of (보2 / 보청기)
+					:consist-of (휠 / 휠체어)))
+			:op2 (구2 / 구입비
+				:mod (o / or
+					:op1 (콘 / 콘택트렌즈)
+					:op2 (안 / 안경)
+					:mod (보2 / 보정용
+						:mod (시 / 시력))))
+			:op3 (구3 / 구입비
+				:mod (o / or
+					:op1 (교 / 교복)
+					:op2 (체 / 체육복)))
+			:op4 (학 / 학원비
+				:mod (아 / 아동
+					(b / before
+						:op1 (취 / 취학))))
+			:op5 (기 / 기부금
+				:mod (일 / 일부)))))
+
+
+
+# ::id snt9.e2017.news.001 ::date 2019-07-12T03:00 ::annotator gabrielle ::preffered
+# ::snt 이 경우 근로자가 구입 장소나 기부단체에 직접 영수증을 따로 발급받아야 공제 혜택을 받을 수 있다 .
+# ::note
+
+(가 / 가능-01
+	:ARG1 (받 / 받-01
+		:ARG0 (근 / 근로자)
+		:ARG1 (혜 / 혜택
+			:mod (공 / 공제)))
+	:condition (발 / 발급-01
+		:ARG0 (o / or
+			:op1 (장 / 장소
+				:location-of (구 / 구입-01
+					:ARG0 근))
+			:op2 (기 / 기부단체))
+		:ARG1 (영 / 영수증)
+		:ARG2 근
+		:mod (직 / 직접)
+		:mod (따 / 따로))
+	:condition (경 / 경우
+		:mod (이 / 이)))
+
+
