@@ -4,7 +4,7 @@
 
 
 
-# ::id snt0.e2017.news.001 ::date 2019-07-12T01:09 ::annotator gabrielle ::preffered
+# ::id snt0.e2017.news.001 ::date 2019-07-12T01:09 ::annotator gabrielle ::preferred
 # ::snt ' 13월의 보너스냐 세금폭탄이냐 ' 연말정산서비스 15일 시작 .
 # ::note multi-sentence 기준, 의문문 기준 확인 필요
 
@@ -22,7 +22,7 @@
 
 
 
-# ::id snt1.e2017.news.001 ::date 2019-07-12T01:12 ::annotator gabrielle ::preffered
+# ::id snt1.e2017.news.001 ::date 2019-07-12T01:12 ::annotator gabrielle ::preferred
 # ::snt 지난해 소득분에 대한 연말정산 서비스가 15일부터 시작된다 .
 # ::note 명사 연쇄 구성을 mod로 처리하는 문제 / 대하-를 처리하는 방식으로 :topic의 용도를 한정할 것인지
 
@@ -36,7 +36,7 @@
 
 
 
-# ::id snt2.e2017.news.001 ::date 2019-07-12T01:14 ::annotator gabrielle ::preffered
+# ::id snt2.e2017.news.001 ::date 2019-07-12T01:14 ::annotator gabrielle ::preferred
 # ::snt 올해부터 4대 보험료 자료도 홈택스에서 조회할 수 있어 편리해졌지만 시력 보정용 안경이나 교복 구입비 , 일부 종교단체 기부금 등은 근로자가 따로 꼼꼼히 챙겨야 13월의 세금 폭탄 대신 보너스를 받을 수 있다 .
 # ::note '13월의 세금 폭탄', '4대 보험료 자료' 처리 지침 필요. possible-01, cause-01, instead-of-91 허용 여부. 꼼꼼히와 같이 용언의 부사형으로 보이더라도 부사로 등재된 단어라면 부사로 취급, concession의 depth, 보정-*, 조사 '도' 누락
 
@@ -72,7 +72,7 @@
 
 
 
-# ::id snt3.e2017.news.001 ::date 2019-07-12T01:28 ::annotator gabrielle ::preffered
+# ::id snt3.e2017.news.001 ::date 2019-07-12T01:28 ::annotator gabrielle ::preferred
 # ::snt 국세청은 홈택스 ( www . hometax . go . kr ) 에서 소득 · 세액공제 자료를 조회할 수 있는 ' 연말정산 간소화 서비스 ' 를 15일 오전 9시부터 개통한다고 12일 밝혔다 .
 # ::note NE-Type government-organization, url-entity 적용 여부, 홈택스 NE 처리
 
@@ -95,7 +95,7 @@
 
 
 
-# ::id snt4.e2017.news.001 ::date 2019-07-12T01:35 ::annotator gabrielle ::preffered
+# ::id snt4.e2017.news.001 ::date 2019-07-12T01:35 ::annotator gabrielle ::preferred
 # ::snt 맞춤형 원천징수제도에 따라 원천징수세액을 80 % 로 선택한 근로자는 그간 낸 세금이 적어 연말정산 때 세금을 더 낼 가능성이 크다 .
 # ::note 양태와 '가능성이 크다'의 차이, pertainym?, cause-01 reifying, ETRI 기준 내.01과 내.02가 다름
 
@@ -120,7 +120,7 @@
 
 
 
-# ::id snt5.e2017.news.001 ::date 2019-07-12T01:42 ::annotator gabrielle ::preffered
+# ::id snt5.e2017.news.001 ::date 2019-07-12T01:42 ::annotator gabrielle ::preferred
 # ::snt 반면 120 % 를 선택하면 월급에서 세금을 미리 많이 떼 연말정산 때 많이 돌려받을 수 있다 .
 # ::note ETRI SRL 주석은 .01로, KPB는 -01로. 우선순위는 KPB. 이전 문장 검수 완료.
 
@@ -140,7 +140,7 @@
 
 
 
-# ::id snt6.e2017.news.001 ::date 2019-07-12T01:49 ::annotator gabrielle ::preffered
+# ::id snt6.e2017.news.001 ::date 2019-07-12T01:49 ::annotator gabrielle ::preferred
 # ::snt 근로자들은 공인인증서로 홈택스에 접속해 연말정산 간소화 서비스를 통해 보장성 보험료 , 의료비 , 교육비 , 주택자금 , 기부금 등 소득 · 세액공제 증명 자료 14개 항목을 확인할 수 있다 .
 # ::note
 
@@ -169,7 +169,7 @@
 
 
 
-# ::id snt7.e2017.news.001 ::date 2019-07-12T02:23 ::annotator gabrielle ::preffered
+# ::id snt7.e2017.news.001 ::date 2019-07-12T02:23 ::annotator gabrielle ::preferred
 # ::snt 올해부터는 국민연금 , 건강보험료 등 4대 보험료 자료와 이전에 대부분 제출되지 않은 폐업 의료기관의 의료비 자료도 제공돼 근로자의 편의를 높였다 .
 # ::note 조사 '도' 누락
 
@@ -196,7 +196,7 @@
 
 
 
-# ::id snt8.e2017.news.001 ::date 2019-07-12T02:40 ::annotator gabrielle ::preffered
+# ::id snt8.e2017.news.001 ::date 2019-07-12T02:40 ::annotator gabrielle ::preferred
 # ::snt 다만 보청기나 휠체어 같은 장애인 보장구 구입비 , 시력 보정용 안경 · 콘택트렌즈 구입비 , 교복 · 체육복 구입비 , 취학 전 아동 학원비 , 일부 기부금은 조회되지 않을 수 있다 .
 # ::note
 
@@ -230,7 +230,7 @@
 
 
 
-# ::id snt9.e2017.news.001 ::date 2019-07-12T03:00 ::annotator gabrielle ::preffered
+# ::id snt9.e2017.news.001 ::date 2019-07-12T03:00 ::annotator gabrielle ::preferred
 # ::snt 이 경우 근로자가 구입 장소나 기부단체에 직접 영수증을 따로 발급받아야 공제 혜택을 받을 수 있다 .
 # ::note
 
@@ -254,7 +254,7 @@
 
 
 
-# ::id snt10.e2017.news.001 ::date 2019-07-12T16:02 ::annotator gabrielle ::preffered
+# ::id snt10.e2017.news.001 ::date 2019-07-12T16:02 ::annotator gabrielle ::preferred
 # ::snt 연말정산간소화 서비스에서 조회되지 않거나 사실과 다르게 조회된 의료비가 있으면 17일까지 홈택스 내 ' 의료비 신고센터 ' 에 신고하면 된다 .
 # ::note 연말정산간소화 띄어쓰기 교정된 것으로 보고 주석.
 
@@ -278,7 +278,7 @@
 
 
 
-# ::id snt11.e2017.news.001 ::date 2019-07-12T16:40 ::annotator gabrielle ::preffered
+# ::id snt11.e2017.news.001 ::date 2019-07-12T16:40 ::annotator gabrielle ::preferred
 # ::snt 국세청은 신고가 접수된 의료기관에 수정 자료를 제출해달라고 요구하고 이를 반영해 20일에 수정된 의료비 자료를 제공한다 .
 # ::note
 
@@ -303,7 +303,7 @@
 
 
 
-# ::id snt12.e2017.news.001 ::date 2019-07-12T16:56 ::annotator gabrielle ::preffered
+# ::id snt12.e2017.news.001 ::date 2019-07-12T16:56 ::annotator gabrielle ::preferred
 # ::snt 20일 이후에도 의료비 자료가 수정되지 않고 사실과 다르다면 근로자가 해당 병원을 찾아 영수증을 직접 수집해야 한다 .
 # ::note obligate-01 대신 활용할 만한 한국어 프레임 필요. 조사 '도' 누락
 
@@ -328,7 +328,7 @@
 
 
 
-# ::id snt13.e2017.news.001 ::date 2019-07-12T17:20 ::annotator gabrielle ::preffered
+# ::id snt13.e2017.news.001 ::date 2019-07-12T17:20 ::annotator gabrielle ::preferred
 # ::snt 부양가족의 연말정산 간소화 자료는 사전에 자료 제공 동의를 받아야 열람할 수 있다 .
 # ::note 
 
@@ -345,7 +345,7 @@
 
 
 
-# ::id snt14.e2017.news.001 ::date 2019-07-12T17:43 ::annotator gabrielle ::preffered
+# ::id snt14.e2017.news.001 ::date 2019-07-12T17:43 ::annotator gabrielle ::preferred
 # ::snt 올해는 온라인으로도 부양가족이 자료 제공 동의를 할 수 있어 편의성이 커졌다 .
 # ::note 가능성, 편의성 등 성 파생 명사의 처리, 어미 '도' 누락
 
@@ -361,7 +361,7 @@
 
 
 
-# ::id snt15.e2017.news.001 ::date 2019-07-12T17:50 ::annotator gabrielle ::preffered
+# ::id snt15.e2017.news.001 ::date 2019-07-12T17:50 ::annotator gabrielle ::preferred
 # ::snt 의료비 중 배우자 난임 시술비는 사생활 보호를 위해 의료비와 별도로 구분되지 않는다 .
 # ::note
 
@@ -378,7 +378,7 @@
 
 
 
-# ::id snt16.e2017.news.001 ::date 2019-07-12T17:57 ::annotator gabrielle ::preffered
+# ::id snt16.e2017.news.001 ::date 2019-07-12T17:57 ::annotator gabrielle ::preferred
 # ::snt 근로자가 따로 난임 시술비 부분만 분류해 제출해야 700만 원 한도가 적용되지 않고 모두 공제받을 수 있다 .
 # ::note 조사 '만' 누락
 
@@ -388,7 +388,7 @@
         :cause (적 / 적용-01
             :polarity -
             :ARG1 (한 / 한도
-                :mod (m / monetary-quantaty :quant 7000000 :unit (원 / 원)))
+                :mod (m / monetary-quantity :quant 7000000 :unit (원 / 원)))
             :condition (제 / 제출-01
                 :ARG0 (근 / 근로자)
                 :manner (분 / 분류-01
@@ -401,7 +401,7 @@
 
 
 
-# ::id snt17.e2017.news.001 ::date 2019-07-12T18:14 ::annotator gabrielle ::preffered
+# ::id snt17.e2017.news.001 ::date 2019-07-12T18:14 ::annotator gabrielle ::preferred
 # ::snt 신생아 등 환자의 주민등록번호를 의료기관에 알려주지 않을 때에도 의료비 자료가 조회되지 않는다 .
 # ::note
 
@@ -417,7 +417,7 @@
 
 
 
-# ::id snt18.e2017.news.001 ::date 2019-07-12T18:22 ::annotator gabrielle ::preffered
+# ::id snt18.e2017.news.001 ::date 2019-07-12T18:22 ::annotator gabrielle ::preferred
 # ::snt 이 경우 근로자가 해당 병원에서 직접 영수증을 발급받아 공제해야 한다 .
 # ::note
 
@@ -434,7 +434,7 @@
 
 
 
-# ::id snt19.e2017.news.001 ::date 2019-07-12T18:34 ::annotator gabrielle ::preffered
+# ::id snt19.e2017.news.001 ::date 2019-07-12T18:34 ::annotator gabrielle ::preferred
 # ::snt 지난해 중 입사하거나 퇴사한 경우에는 근무한 기간의 자료만 선택해 공제받을 수 있다 .
 # ::note 근무한 기간? 조사 '만' 누락
 
@@ -452,7 +452,7 @@
 
 
 
-# ::id snt20.e2017.news.001 ::date 2019-07-14T01:29 ::annotator gabrielle ::preffered
+# ::id snt20.e2017.news.001 ::date 2019-07-14T01:29 ::annotator gabrielle ::preferred
 # ::snt 연말정산 간소화 서비스에 나온 내용은 귀찮더라도 꼼꼼히 살펴봐야 한다 .
 # ::note
 
@@ -469,7 +469,7 @@
 
 
 
-# ::id snt21.e2017.news.001 ::date 2019-07-14T01:55 ::annotator gabrielle ::preffered
+# ::id snt21.e2017.news.001 ::date 2019-07-14T01:55 ::annotator gabrielle ::preferred
 # ::snt 자료가 잘못돼 공제 혜택을 과도하게 받으면 가산세를 물어야 할 수도 있기 때문이다 .
 # ::note "때문이다."로 끝나는 문장은 이전 문장에 대한 :cause로 merging 할 수 있을 듯. 문장은 "할 수 있다."를 상정하고 주석 
 
@@ -485,7 +485,7 @@
 
 
 
-# ::id snt22.e2017.news.001 ::date 2019-07-14T02:05 ::annotator gabrielle ::preffered
+# ::id snt22.e2017.news.001 ::date 2019-07-14T02:05 ::annotator gabrielle ::preferred
 # ::snt 공제 자료를 기반으로 공제 신고서를 전산으로 작성할 수 있는 ' 편리한 연말정산 ' 서비스는 18일부터 이용할 수 있다 .
 # ::note '기반으로' :instrument 처리 여부 확인
 
@@ -504,7 +504,7 @@
 
 
 
-# ::id snt23.e2017.news.001 ::date 2019-07-14T02:25 ::annotator gabrielle ::preffered
+# ::id snt23.e2017.news.001 ::date 2019-07-14T02:25 ::annotator gabrielle ::preferred
 # ::snt 국세청 홈택스에 접속한 뒤 연말정산 간소화 서비스에서 공제받을 항목을 선택하면 공제 신고서에 내용이 자동으로 반영된다 .
 # ::note
 
@@ -524,7 +524,7 @@
 
 
 
-# ::id snt24.e2017.news.001 ::date 2019-07-14T02:42 ::annotator gabrielle ::preffered
+# ::id snt24.e2017.news.001 ::date 2019-07-14T02:42 ::annotator gabrielle ::preferred
 #sent 24 : 연말정산 간소화 서비스에서 조회되지 않은 자료만 근로자가 별도로 수집해 공제 신고서에 입력하면 된다 .
 # ::note 조사 '만' 누락, '-(으)면 된다'의 처리
 
@@ -544,7 +544,7 @@
 
 
 
-# ::id snt25.e2017.news.001 ::date 2019-07-14T03:03 ::annotator gabrielle ::preffered
+# ::id snt25.e2017.news.001 ::date 2019-07-14T03:03 ::annotator gabrielle ::preferred
 # ::snt 편리한 연말정산 서비스에서는 예상세액을 간편하게 계산할 수 있는 서비스도 제공한다 .
 # ::note 조사 '도' 누락
 
@@ -558,7 +558,7 @@
 
 
 
-# ::id snt26.e2017.news.001 ::date 2019-07-14T03:11 ::annotator gabrielle ::preffered
+# ::id snt26.e2017.news.001 ::date 2019-07-14T03:11 ::annotator gabrielle ::preferred
 # ::snt 맞벌이 부부 중 어느 쪽이 공제 혜택을 더 많이 받을 수 있을지 파악해 세 부담을 줄일 수 있는 맞벌이 근로자 절세 안내도 받을 수 있다 .
 # ::note snt25의 부연 성격의 문장, 조사 '도' 누락, have-degree-91 사용
 
@@ -577,7 +577,7 @@
                             :ARG1 (받2 / 받-01
                                 :ARG0 (a / amr-unknown
                                     :superset (부2 / 부부
-                                        :mod (맞 / 맞벌이)))
+                                        :mod 맞))
                                 :ARG1 (혜 / 혜택
                                     :mod (공 / 공제))
                                 :ARG1-of (h / have-degree-91
@@ -585,45 +585,66 @@
                                     :ARG3 (더 / 더))))))))))
 
 
+# ::id snt27.e2017.news.001 ::date 2019-07-14T13:50 ::annotator gabrielle ::preferred
+# ::snt 홈택스 스마트폰 애플리케이션을 이용하면 연말정산 공제 요건 , 절세 방법 등 ' 꿀팁 ' 도 얻을 수 있다 .
+# ::note 조사 '도' 누락. 보조사 처리 기준 마련 필요. 열거 + '등' 처리
 
-#sent 27 : 홈택스 스마트폰 애플리케이션을 이용하면 연말정산 공제 요건, 절세 방법 등 '꿀팁'도 얻을 수 있다.
-	 verb 0 이용 -- surface_form: 이용하면 / VP /
-		 2 ARG1 	 홈택스 스마트폰 애플리케이션
-	 verb 1 얻 -- surface_form: 얻을 / VP_MOD /
-		 3 ARGM-CND 	 이용하면
-		 10 ARG0 	 연말정산 공제 요건, 절세 방법 등 '꿀팁'
-		 13 AUX 	 있다.
-
-
-#sent 28 : 연말정산 서비스를 이용하다 궁금한 점은 국세 상담센터(☎126)으로 문의하면 된다.
-	 verb 0 이용 -- surface_form: 이용하다 / VP /
-		 1 ARG1 	 연말정산 서비스
-	 verb 1 궁금하 -- surface_form: 궁금한 / VP_MOD /
-		 2 ARGM-MNR 	 이용하다
-		 4 ARG1 	 점
-	 verb 2 문의 -- surface_form: 문의하면 / VP /
-		 4 ARG1 	 점
-		 6 ARG2 	 국세 상담센터(☎126)
-**	 verb 3 되 -- surface_form: 된다. / VP /
-		 4 ARG1 	 점
-		 7 ARG2 	 문의하면
+(가 / 가능-01
+    :ARG1 (얻 / 얻-01
+        :ARG1 (꿀 / 꿀팁
+            :subset (o / or
+                :op1 (요 / 요건
+                    :mod (공 / 공제
+                        :mod (연 / 연말정산)))
+                :op2 (방 / 방법
+                    :mod (절 / 절세)))))
+    :condition (이 / 이용-01
+        :ARG1 (애 / 애플리케이션
+            :mod (스 / 스마트폰
+                :mod (홈 / 홈택스)))))
 
 
-#sent 29 : 국세청은 "16일, 18일과 부가가치세 신고 마감일인 25일에는 홈택스 이용이 집중될 것으로 예상해 대기 시간이 길어질 수 있다"며 "여유를 갖고 접속해달라"라고 당부했다.
-	 verb 0 집중 -- surface_form: 집중될 / VP_MOD /
-		 6 ARGM-TMP 	 25일
-		 8 ARG1 	 이용
-	 verb 1 예상 -- surface_form: 예상해 / VP /
-		 6 ARGM-TMP 	 25일
-		 10 ARG1 	 것
-	 verb 2 길어지 -- surface_form: 길어질 / VP_MOD /
-		 11 ARGM-MNR 	 예상해
-		 13 ARG1 	 시간
-		 16 AUX 	 "16일, 18일과 부가가치세 신고 마감일인 25일에는 홈택스 이용이 집중될 것으로 예상해 대기 시간이 길어질 수 있다"며
-	 verb 3 갖 -- surface_form: 갖고 / VP /
-		 17 ARG1 	 "여유
-	 verb 4 접속 -- surface_form: 접속해달라"라고 / VP_CMP /
-		 18 ARG1 	 갖고
-**	 verb 5 당부 -- surface_form: 당부했다. / VP /
-		 0 ARG0 	 국세청
-		 19 ARG1 	 "여유를 갖고 접속하어달라"
+
+# ::id snt28.e2017.news.001 ::date 2019-07-14T13:59 ::annotator gabrielle ::preferred
+# ::snt 연말정산 서비스를 이용하다 궁금한 점은 국세 상담센터 ( ☎ 126 ) 으로 문의하면 된다 .
+# ::note '(으)면 된다.'의 처리 방법
+
+(되 / 되-01
+    :condition (문 / 문의-01
+        :ARG1 (궁 / 궁금하-01
+            :time (이 / 이용-01
+                :ARG1 (서 / 서비스
+                    :mod (연 / 연말정산))))
+        :ARG2 (상 / 상담센터
+            :mod (국 / 국세)
+            :mod (p / phone-number-entity :value 126))))
+
+
+
+# ::id snt29.e2017.news.001 ::date 2019-07-14T15:19 ::annotator gabrielle ::preferred
+# ::snt 국세청은 " 16일 , 18일과 부가가치세 신고 마감일인 25일에는 홈택스 이용이 집중될 것으로 예상해 대기 시간이 길어질 수 있다 " 며 " 여유를 갖고 접속해달라 " 라고 당부했다.
+# ::note
+
+(당 / 당부-01
+    :ARG0 (g / government-organization :name (이 / 이름 :op1 "국세청"))
+    :ARG1 (접 / 접속-01
+        :ARG1 (홈 / 홈택스)
+        :manner (갖 / 갖-01
+            :ARG1 (여 / 여유)))
+    :cause (가 / 가능-01
+        :ARG1 (길 / 길-01
+            :ARG1 (t / temporal-quantity
+                :duration-of (대 / 대기-01)))
+        :cause (예 / 예상-01
+            :ARG1 (집 / 집중-01
+                :ARG1 (이2 / 이용-01
+                    :ARG1 홈
+                    :time (a / and
+                        :op1 (d / date-entity :day 16)
+                        :op2 (d2 / date-entity :day 18)
+                        :op3 (d3 / date-entity :day 25
+                            :mod (마 / 마감일
+                                :mod (신 / 신고
+                                    :mod (부 / 부가가치세))))))))))
+
+
