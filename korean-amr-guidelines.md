@@ -1588,8 +1588,8 @@ Korean PropBank(https://catalog.ldc.upenn.edu/LDC2006T03)는 2006년에 공개�
 
 ~~~lisp
 (덥 / 덥-01
-    :ARG1 (날 / 날씨|weather)
-    :time (어 / 어제|yesterday))
+    :ARG1 (날 / 날씨)
+    :time (어 / 어제))
 ~~~
 > 어제가 날씨가 더웠다.
 
