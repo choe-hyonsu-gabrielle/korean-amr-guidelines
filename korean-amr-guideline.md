@@ -84,10 +84,11 @@
   - [추가 정보 (Further information)](#%EC%B6%94%EA%B0%80-%EC%A0%95%EB%B3%B4-further-information)
   - [AMR 기인열전 (AMR Freak Show)](#amr-%EA%B8%B0%EC%9D%B8%EC%97%B4%EC%A0%84-amr-freak-show)
     - [순환성 (cycle)](#%EC%88%9C%ED%99%98%EC%84%B1-cycle)
-    - [그래프로 인코딩할 때의 여러 방법들](#%EA%B7%B8%EB%9E%98%ED%94%84%EB%A1%9C-%EC%9D%B8%EC%BD%94%EB%94%A9%ED%95%A0-%EB%95%8C%EC%9D%98-%EC%97%AC%EB%9F%AC-%EB%B0%A9%EB%B2%95%EB%93%A4)
+    - [그래프로 인코딩할 때의 여러 방법들 (Different textual ways to encode a graph)](#%EA%B7%B8%EB%9E%98%ED%94%84%EB%A1%9C-%EC%9D%B8%EC%BD%94%EB%94%A9%ED%95%A0-%EB%95%8C%EC%9D%98-%EC%97%AC%EB%9F%AC-%EB%B0%A9%EB%B2%95%EB%93%A4-different-textual-ways-to-encode-a-graph)
   - [참고 문헌 (References)](#%EC%B0%B8%EA%B3%A0-%EB%AC%B8%ED%97%8C-references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## *Disclaimer & dependencies*
 한국어 AMR 가이드라인은 Abstract Meaning Representation (AMR) 1.2.6 Specification ([Banarescu et al. 2019](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), 이하 English AMR)을 기반으로 작성되었습니다.
@@ -3838,9 +3839,9 @@ AMR과 관련 논문들을 찾아보고 싶다면, 아래 페이지에 정리가
             :ARG1 (품 / 품질))))
 ~~~
 
-### 그래프로 인코딩할 때의 여러 방법들
+### 그래프로 인코딩할 때의 여러 방법들 (Different textual ways to encode a graph)
 
-마지막으로, 같은 문장을 AMR로 표상할 때 방법들이 살짝씩 다른 경우가 있습니다. ("소년은 누군가 자신을 믿는 것을 좋아한다.")
+마지막으로, 같은 문장을 AMR로 표상할 때 방법들이 조금씩 다른 경우가 있습니다. ("소년은 누군가 자신을 믿는 것을 좋아한다.")
 
 ~~~lisp
 (좋 / 좋-02                    (좋 / 좋-02
