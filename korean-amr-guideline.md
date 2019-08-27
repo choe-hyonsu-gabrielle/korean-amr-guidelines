@@ -37,7 +37,7 @@ AMR은 standard feature structure representation [Shieber 1986, Carpenter 1992]�
 
 ## 예시 ([Example](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#example))
 
-<img width="640" alt="graph" src="https://user-images.githubusercontent.com/20152058/63767149-c515b900-c907-11e9-905a-b0bfea683a22.png">
+<img width="500" alt="graph" src="https://user-images.githubusercontent.com/20152058/63767149-c515b900-c907-11e9-905a-b0bfea683a22.png">
 
 이 AMR의 의미는 대략 다음과 같습니다: 사건 `생각-01` 주체(`:ARG0`)는 `소년`이 되고 대상(`:ARG1`)은 `좋-02` 사건이 됩니다. (*소년이 '~ 좋아한다'고 생각한다.*) `좋-02` 사건의 주체(`:ARG0`)는 `소녀`가 되고 대상(`:ARG1`)은 앞서 상위에서 언급되었던 `소년`이 됩니다. (*소년이 '소녀가 소년을 좋아한다'고 생각한다.*) 따라서 `소년`의 역할은 (1) `생각-01` 사건의 주체(`:ARG0`)이자 (2) `좋-02` 사건의 대상(`:ARG1`)으로 모두 두 가지입니다. 이런 경우 AMR에서는 같은 개념 단말을 가리키는 두 개의 관계 화살표를 통해 표현할 수 있습니다.
 
