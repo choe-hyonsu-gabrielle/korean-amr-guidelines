@@ -136,7 +136,7 @@ AMR은 standard feature structure representation [Shieber 1986, Carpenter 1992]�
 이 AMR은 아래와 같이 루트(root) 정보를 생략한 논리적 트리플의 결합으로 나타낼 수도 있습니다.
 
 ~~~lisp
-instance(생, 생각-01) ^        /* '생'은 '생각-01'의 인스턴스 */
+instance(생, 생각-01) ^        /* '생'은 '생각-01'의 인스턴스 */
 instance(소, 소년) ^           /* '소'는 '소년'의 인스턴스 */
 instance(좋, 좋-02) ^         /* '좋'은 '좋-02'의 인스턴스 */
 instance(소2, 소녀) ^          /* '소2'는 '소녀'의 인스턴스 */
@@ -1232,7 +1232,7 @@ Korean Propbank에 적절한 용언 프레임이 없다면 `-00`을 붙이고 �
 
 **참고**: English AMR에서는 적절한 형용사(adjective) 프레임이 OntoNotes에 없어(미등재어) 활용할 수 없는 경우 `-00`없이 개념 단말로 씁니다. (예: `small`) 이러한 지침은 영어의 Adjective는 한국어의 형용사와는 다르게 명사성을 가지기 때문으로, 이는 [Verbalization](https://www.isi.edu/~ulf/amr/lib/popup/verbalization.html)과도 관련되는 지침으로 보입니다. 그러나 한국어의 형용사는 동사와 함께 용언 범주를 이루고 스스로 서술어로 쓰이기 때문에, 한국어 지침에서는 `-00`을 붙이도록 권하고 있습니다. (추후에 주석자들이 `-00`으로 처리한 것을 모으면 확장된 용언 프레임을 추가로 등재하는 데에 도움이 될 것입니다.)
 
-'무엇이 무엇이다'의 구성 역시 `:domain`을 활용합니다.
+'무엇이 무엇이다'의 구성 역시 `:domain`을 활용합니다.
 
 ~~~lisp
 (변 / 변호사
@@ -2795,7 +2795,7 @@ Have-degree-91
 ~~~
 > 소녀가 소년보다 키가 더 크다.
 
-`have-degree-91`은 상하위 집합 관계(subset/superset relation)를 갖는 최상급 구문에도 활용됩니다. 이는 `include-91`에 선행하여 적용되는 것으로, 상위 집합의 비교 대상과 최상급을 받는 개체 사이의 상하위 집합 관계를 나타내고자 할 경우에도 쓰입니다.
+`have-degree-91`은 상하위 집합 관계(subset/superset relation)를 갖는 최상급 구문에도 활용됩니다. 이는 `include-91`에 선행하여 적용되는 것으로, 상위 집합의 비교 대상과 최상급을 받는 개체 사이의 상하위 집합 관계를 나타내고자 할 경우에도 쓰입니다.
 
 ~~~lisp
 (h / have-degree-91
@@ -2897,7 +2897,7 @@ AMR에서 대명사 또는 대용어는 '나', '너', '그', '우리', '너희',
 
 ## 관련어 ([Pertainyms](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#pertainyms))
 
-이 챕터에서는 [Pertainyms](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#pertainyms)에서 제시하는 *관련어(Pertainym adjectives) 처리 지침을 바탕으로, 한국어의 '-적(的)' 또는 '-성(性)' 파생 명사(주로 명사-관형사 통용어)를 처리하는 방법을 다룹니다. **Pertainym의 역어 '관련어'는 임의로 결정한 것입니다.*
+이 챕터에서는 [Pertainyms](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#pertainyms)에서 제시하는 *관련어(Pertainym adjectives) 처리 지침을 바탕으로, 한국어의 '-적(的)' 또는 '-성(性)' 파생 명사(주로 명사-관형사 통용어)를 처리하는 방법을 다룹니다. **Pertainym의 역어 '관련어'는 임의로 결정한 것입니다.*
 
 AMR에서 접미사 '-적' 또는 '-성'은 주석되지 않습니다. 명사형을 기준으로 어간화한 후 `:mod`로 주석합니다.
 
@@ -3461,7 +3461,7 @@ AMR에서는 "2리터의 우유", "우유 2리터"와 같은 양화 표현을 "�
 >
 > 모스크바 동쪽 50마일 떨어진 곳에 비행기가 추락했다.
 
-`X-quantity` 노테이션은 명확한 수량에만 쓰이는 것입니다. 분명하지 않은 수량에 대해서는 단순히 `:quant`로만 주석하면 됩니다.
+`X-quantity` 노테이션은 명확한 수량에만 쓰이는 것입니다. 분명하지 않은 수량에 대해서는 단순히 `:quant`로만 주석하면 됩니다.
 
 ~~~lisp
 (모 / 모으-01
