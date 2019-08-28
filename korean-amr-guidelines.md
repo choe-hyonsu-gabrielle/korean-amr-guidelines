@@ -580,7 +580,7 @@ English AMR에서는 통사적 양태를 `possible-01`(가능), `likely-01`(개�
 >
 > 소년은 가고 싶어 한다.
 
-## 부정 ([Negation](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#modality))
+## 부정 ([Negation](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#negation))
 
 AMR은 `:polarity` 를 이용하여 논리적인 부정을 표현합니다.
 
@@ -1248,7 +1248,7 @@ Korean Propbank에 적절한 용언 프레임이 없다면 `-00`을 붙이고 �
 ~~~
 > 변호사인 그 남자
 
-어떤 단어들은 품사통용어입니다. 부사도 명사처럼 쓰일 때가 있죠. '-이-'가 붙어 서술어가 되었더라도 원래 용언이 아니라면 `-00`을 붙이지 않습니다.
+어떤 단어들은 품사통용어입니다. 부사도 명사처럼 쓰일 때가 있죠. 용언이 아니라면 `-00`은 붙이지 않습니다.
 
 ~~~lisp
 (별 / 별로
