@@ -2263,6 +2263,7 @@ AMR Editor에서 `:cause`/`:cause-of`는 자동으로 `:cause-01`로 변환됩�
 `:time`        | `be-temporally-at-91`           | `:ARG1` | `:ARG2` | "파티는 금요일이다"
 `:topic`       | `concern-02`                    | `:ARG0` | `:ARG1` | "그 쇼는 나에 대한 것이다"
 `:value`       | `have-value-91`                 | `:ARG1` | `:ARG2` | "전화번호는 1-800-555-1223이다."
+
 \**전체 roleset의 수는 일치하지 않음.*
 
 아래 관계들은 구체화되지 않습니다:
