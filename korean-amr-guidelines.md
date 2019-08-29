@@ -1,4 +1,4 @@
-한국어 추상 의미 표상(AMR) 가이드라인 1.0 (RC)
+한국어 추상 의미 표상(AMR) 가이드라인 1.0 (Release Candidate)
 =============================
 ***Korean Abstract Meaning Representation (AMR) Specification 1.0***
 
