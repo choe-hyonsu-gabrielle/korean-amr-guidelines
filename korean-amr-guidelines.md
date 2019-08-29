@@ -95,7 +95,7 @@
 ## *Disclaimer & dependencies*
 한국어 AMR 가이드라인은 Abstract Meaning Representation (AMR) 1.2.6 Specification ([Banarescu et al. 2019](https://github.com/amrisi/amr-guidelines/blob/master/amr.md), 이하 English AMR)을 기반으로 작성되었습니다.
 
-English AMR의 주석 예시를 바탕으로 한국어의 주석 지침을 확정하는 과정에서 아래의 자료들을 참고하였음을 밝힙니다. **본 문서에서 제시하는 한국어 AMR 가이드라인은 어떠한 기관으로부터도 공인된 자료가 아니며, AMR 또는 UMR(Uniform Meaning Representation) Policy에 따라 계속해서 수정될 수 있습니다.**
+English AMR의 주석 예시를 바탕으로 한국어의 주석 지침을 확정하는 과정에서 아래의 자료들을 참고하였음을 밝힙니다.
 
 + AMR Dictionary: https://amr.isi.edu/doc/amr-dict.html
 + List of AMR NE types: https://amr.isi.edu/doc/ne-types.html
@@ -104,6 +104,8 @@ English AMR의 주석 예시를 바탕으로 한국어의 주석 지침을 확�
 
 
 각 챕터의 내용은 English AMR을 한국어의 문법 현상에 적용한 것입니다. 각 챕터의 제목 옆에는 해당 원문의 링크가 포함되어 있으니, 한국어 AMR 주석 지침을 살피기에 앞서 English AMR 및 다른 언어 AMR의 가이드라인 또한 두루 확인하시기 바랍니다.
+
+**본 문서에서 제시하는 한국어 AMR 가이드라인은 어떠한 기관으로부터도 공인된 자료가 아니며, AMR 또는 UMR(Uniform Meaning Representation) Policy에 따라 계속해서 수정될 수 있습니다.**
 
 
 # I. 서론 ([Introduction](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#part-i-introduction))
