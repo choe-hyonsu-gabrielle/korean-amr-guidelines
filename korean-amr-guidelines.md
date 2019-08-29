@@ -13,6 +13,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+  - [*Disclaimer & dependencies*](#disclaimer--dependencies)
 - [I. 서론 (Introduction)](#i-%EC%84%9C%EB%A1%A0-introduction)
   - [예시 (Example)](#%EC%98%88%EC%8B%9C-example)
   - [언어로부터의 추상화 (Abstraction away from language)](#%EC%96%B8%EC%96%B4%EB%A1%9C%EB%B6%80%ED%84%B0%EC%9D%98-%EC%B6%94%EC%83%81%ED%99%94-abstraction-away-from-language)
@@ -20,6 +21,7 @@
   - [초점 (Focus)](#%EC%B4%88%EC%A0%90-focus)
   - [AMR 강령 (AMR slogans)](#amr-%EA%B0%95%EB%A0%B9-amr-slogans)
   - [English AMR 1.2의 한계 (Limitations of AMR 1.2)](#english-amr-12%EC%9D%98-%ED%95%9C%EA%B3%84-limitations-of-amr-12)
+    - [한국어 AMR 가이드라인의 한계](#%ED%95%9C%EA%B5%AD%EC%96%B4-amr-%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8%EC%9D%98-%ED%95%9C%EA%B3%84)
 - [II. 개념과 관계 (Concepts and relations)](#ii-%EA%B0%9C%EB%85%90%EA%B3%BC-%EA%B4%80%EA%B3%84-concepts-and-relations)
 - [III. 현상 (Phenomena)](#iii-%ED%98%84%EC%83%81-phenomena)
   - [필수역 (Core roles)](#%ED%95%84%EC%88%98%EC%97%AD-core-roles)
@@ -354,6 +356,13 @@ English AMR 1.2는 여러모로 개선해야 할 문제들이 아직 많습니�
 - 명사-명사 관계나, 명사-형용사 관계에 대한 심층적 해석을 제공하지 않습니다. (**참고:** 한국어 AMR에서는 일반적인 복합 명사 또는 명사 상당 어구에 대해 해석적인 주석을 지향합니다.)
 
 - 진도(magnitude), 진앙(epicenter), 사상자(casualties) 등의 역할을 갖는 Earthquake 프레임이나, 엄마(mother), 아빠(father), 아이의 성(baby gender),  착상 후 경과 시간(time since inception) 등의 역할을 갖는 Pregnancy처럼 상세한 프레임을 포함하지는 않습니다. AMR 1.2는 AMR 2.0으로의 개정을 목표로 하고 있습니다. (**참고:** 필요하다면 이를 위해 Korean FrameNet을 활용하여 주석을 할 수도 있을 것입니다.)
+
+### 한국어 AMR 가이드라인의 한계
+
+한국어 AMR 가이드라인은 아래와 같은 문제들에 대해서 아직 뚜렷한 지침을 제시하지 못하고 있습니다. 갈 길이 아주 머네요!
+
+- 다수의 우언적 구성에 대해 처리 방법을 명확하게 제시하지 못하고 있습니다. 이를 위해 한국어의 우언적 구성을 분류하고 각각의 우언적 구성들이 어떤 관계 또는 프레임에 대응되는지를 사전식으로 제시할 수 있도록 별도의 챕터를 구성할 계획입니다.
+
 
 # II. 개념과 관계 ([Concepts and relations](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#part-ii--concepts-and-relations))
 
