@@ -2073,12 +2073,12 @@ AMR Editor에서 `:cause`/`:cause-of`는 자동으로 `:cause-01`로 변환됩�
 ### [`:example`](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#example-1)
 
 ~~~lisp
-(회 / 회사
+(기 / 기업
     :example (a / and
         :op1 (c / company :name (이 / 이름 :op1 "구글"))
         :op2 (c2 / company :name (이 / 이름 :op1 "IBM"))))
 ~~~
-> 구글이나 IBM 같은 회사
+> 구글이나 IBM 같은 기업들
 
 ### [`:direction`](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#direction)
 
