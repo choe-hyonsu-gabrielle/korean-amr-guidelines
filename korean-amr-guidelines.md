@@ -1332,9 +1332,9 @@ INAPPROPRIATE:
 ~~~lisp
 (h / have-mod-91            OR: (아 / 아니-01
     :polarity -                     :ARG1 (문 / 문제)
-    :ARG1 (녹 / 녹-01                :ARG2 (녹 / 녹-01
-        :ARG1 (빙 / 빙하))                :ARG1 (빙 / 빙하)))
-    :domain (문 / 문제))
+    :ARG1 (문 / 문제)                 :ARG2 (녹 / 녹-01
+    :ARG2 (녹 / 녹-01                     :ARG1 (빙 / 빙하)))
+        :ARG1 (빙 / 빙하)))
 ~~~
 > 문제는 빙하가 녹는 것이 아니다.
 
