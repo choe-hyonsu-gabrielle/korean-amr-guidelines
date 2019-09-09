@@ -764,7 +764,7 @@ AMR은 의문을 표상하기 위해 `amr-unknown`을 해당 위치에 놓습니
 (찾 / 찾-01
     :ARG0 (소 / 소녀)
     :ARG1 (소2 / 소년)
-    :location (a / amr_unknown))
+    :manner (a / amr_unknown))
 ~~~
 > 소녀가 소년을 어떻게 찾았나?
 
