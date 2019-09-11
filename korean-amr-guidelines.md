@@ -2203,7 +2203,7 @@ AMR Editor에서 `:cause`/`:cause-of`는 자동으로 `:cause-01`로 변환됩�
 
 ## 구체화 ([Reification](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#reification))
 
-간혹 AMR에서의 관계들을 일등 개념(first-class concept)로 다루고 싶을 때가 있을 것입니다. 관계(역할)을 개념으로 변환하는 것을 *구체화(reification)* 라고 합니다. 예를 들어 부가역 중 `:cause`는 `cause-01`로 대신할 수 있습니다. `X :cause Y`의 문법 대신에, `X :ARG1-of (c / cause-01 :ARG0 Y)`와 같은 표현을 할 수 있는 것입니다.
+간혹 AMR에서의 관계들을 일급 개념(first-class concept)으로 다루고 싶을 때가 있을 것입니다. 관계(역할)을 개념으로 변환하는 것을 *구체화(reification)* 라고 합니다. 예를 들어 부가역 중 `:cause`는 `cause-01`로 대신할 수 있습니다. `X :cause Y`의 문법 대신에, `X :ARG1-of (c / cause-01 :ARG0 Y)`와 같은 표현을 할 수 있는 것입니다.
 
 ~~~lisp
 구체화되지 않은 AMR:                  구체화된 AMR:
