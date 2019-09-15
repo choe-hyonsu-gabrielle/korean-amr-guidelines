@@ -2,16 +2,14 @@
 =============================
 ***Korean Abstract Meaning Representation (AMR) Specification 1.0***
 
-**Documentized: August 30, 2019**
++ **Documentized: August 30, 2019**
++ **CBT: September 18, 2019**
++ **Publicized: October 11, 2019**
 
-**CBT: September 18, 2019**
+***최현수, 한지윤, 박혜진, 오태환, 박석원, 김한샘,***
+*김미경, 김영상, 노영빈, 류보람, 이보미, 장연지, 정진경, Fei Li*
 
-**Publicized: October 11, 2019**
-
-***최현수, 한지윤, 박혜진, 김한샘,***
-*김미경, 김영상, 노영빈, 류보람, 오태환, 이보미, 장연지, 정진경, Fei Li*
-
-***Hyonsu Choe\*, Jiyoon Han, Hyejin Park, Hanseam Kim*** *|* *Institute of Language and Informatics Studies, Yonsei University* *(Maintained by\*)*
+***Hyonsu Choe\*, Jiyoon Han, Hyejin Park, Taehwan Oh, Seokwon Park, Hanseam Kim*** *|* *Institute of Language and Informatics Studies, Yonsei University* *(Maintained by\*)*
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
