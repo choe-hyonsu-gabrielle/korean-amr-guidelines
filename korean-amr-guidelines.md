@@ -1,4 +1,4 @@
-한국어 Abstract Meaning Representation (AMR) 가이드라인 1.0 (RC1)
+한국어 Abstract Meaning Representation (AMR) 가이드라인 1.0 (Release Candidate)
 =============================
 ***Korean Abstract Meaning Representation (AMR) Specification 1.0***
 
