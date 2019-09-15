@@ -3,7 +3,9 @@
 ***Korean Abstract Meaning Representation (AMR) Specification 1.0***
 
 **Documentized: August 30, 2019**
+
 **CBT: September 18, 2019**
+
 **Publicized: October 11, 2019**
 
 ***최현수, 한지윤, 박혜진, 김한샘,***
