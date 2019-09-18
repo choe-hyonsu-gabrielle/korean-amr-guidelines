@@ -2530,7 +2530,7 @@ AMR에서 의미 프레임 요소를 기호적으로 표현하는 대부분의 �
 > 소녀를 믿고 싶은 소년
 
 
-## 접속 ([Conjunctions](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#multiple-relations-with-the-same-name))
+## 접속 ([Conjunctions](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#conjunctions))
 
 한국어에서 접속은 접속조사, 연결어미, 접속부사로 나타납니다. 그간의 한국어 연구에서 접속과 내포, 종속 접속과 대등 접속과 관련하여 다양한 의견들이 제시되어 왔지만, 모든 문법적 쟁점들을 AMR에 엄밀하게 반영하기는 현실적으로 쉽지 않은 일입니다.
 
@@ -2642,7 +2642,7 @@ AMR은 반복되는 성분이 생략되는 경우에도 명시적으로 표상�
 > 화요일에 소년이 도착하고 떠났다.
 
 
-## 양화사와 작용역 ([Quantifiers and scope](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#multiple-relations-with-the-same-name))
+## 양화사와 작용역 ([Quantifiers and scope](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#quantifiers-and-scope))
 
 **참고**: 이 지침에서는 English AMR 1.2.6을 기준으로 서술합니다. 추후 [Pustejovsky et at.(2019)](https://www.aclweb.org/anthology/W19-3303/)의 내용에 따라 개정 사항이 반영될 예정입니다.
 
