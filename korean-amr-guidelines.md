@@ -3805,7 +3805,7 @@ have-quant-91
 ~~~lisp
 (u / url-entity :value "https://www.president.go.kr")
 ~~~
-> https://www.korean.go.kr
+> https://www.president.go.kr
 
 그 밖에 다양한 특수 프레임과 개체들을 더 살펴 보세요: `byline-91`, `correlate-91` (*"많을 수록 기쁨도 커진다"*), `course-91`, `have-degree-of-resemblance-91` (*"X는 Z이기 보다는 Y에 더 가깝다"*), `hyperlink-91`, `instead-of-91`, `publication-91`, `request-confirmation-91`, `score-entity`, `score-on-scale-91`, `statistical-test-91`, `street-address-91`, `string-entity`, `value-interval`, `variable`, 
 
