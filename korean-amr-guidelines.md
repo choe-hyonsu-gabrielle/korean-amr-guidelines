@@ -515,10 +515,10 @@ Korean PropBank의 서술어 프레임과 roleset의 정의가 애매하거나 �
 
 Korean PropBank에 등재되지 않은 단어(미등재어)가 있다면, AMR은 `-00`을 취하여 주석합니다.
 ~~~lisp
-(p / possible-01
+(가 / 가능-01
     :ARG1 (조 / 조회-00
         :location (지 / 지점
-            :ARG1 (가 / 가깝-01))
+            :ARG1 (가2 / 가깝-01))
         :ARG1 (사 / 사실
             :mod (신 / 신청-01))))
 ~~~
