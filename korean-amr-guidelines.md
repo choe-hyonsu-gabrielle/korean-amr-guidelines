@@ -2377,7 +2377,7 @@ Korean PropBank의 용언 프레임 중에서는 명사-명사 구성이나 본 
 
 ## 한국어의 조사와 시간 및 공간 관련 표현 ([Prepositions](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#prepositions))
 
-이 챕터는 [Prepositions](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#prepositions)의 내용을 바탕으로 작성되었습니다. 여기서는 한국어의 조사(**postposition**)에 대해 다룹니다.
+이 챕터는 [Prepositions](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#prepositions)의 내용을 바탕으로 작성되었습니다. 여기서는 한국어의 조사(**postposition**)와 몇몇 의존 명사에 대해 다룹니다.
 
 AMR에서 의미 프레임 요소를 기호적으로 표현하는 대부분의 조사들은 누락시킵니다. 
 
@@ -2507,7 +2507,7 @@ AMR에서 의미 프레임 요소를 기호적으로 표현하는 대부분의 �
 (체 / 체계
     :mod (교 / 교통)
     :mod (c / city 
-        :wiki "서울"
+        :wiki "서울특별시"
         :name (이 / 이름 :op1 "서울")))
 ~~~
 > 서울의 교통 체계
@@ -2746,7 +2746,7 @@ AMR은 아직 양화사에 대해 심도 있게 표상하지는 않습니다. �
             :polarity -)
         :manner (성 / 성실-01)))
 ~~~
-> 소녀가 아닌 이는 소년이 아닌 이가 성실하게 일한다고 생각한다. (The non-girl believes that the non-boy works hard.)
+> 소녀가 아닌 누군가는 소년이 아닌 누군가가 성실하게 일한다고 생각한다. (The non-girl believes that the non-boy works hard.)
 
 현행 AMR은 양화사와 작용역에 대해서 명확한 지침을 제공하지 못하고 있습니다. (AMR apologizes for not advising on the placement of negation with respect to quantifiers.) 앞으로의 개정 방향에 대해서는 [Pustejovsky et at.(2019)](https://www.aclweb.org/anthology/W19-3303/)을 참고하세요.
 
