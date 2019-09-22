@@ -2101,9 +2101,20 @@ AMR Editor에서 `:cause`/`:cause-of`는 자동으로 `:cause-01`로 변환됩�
 (기 / 기업
     :example (a / and
         :op1 (c / company :name (이 / 이름 :op1 "구글"))
-        :op2 (c2 / company :name (이 / 이름 :op1 "IBM"))))
+        :op2 (c2 / company :name (이2 / 이름 :op1 "IBM"))))
 ~~~
 > 구글이나 IBM 같은 기업들
+
+의존 명사 '등'은 '구글'이나 'IBM' 외에도 해당하는 것이 더 있음을 암시하므로 `:opN` 관계를 사용합니다.
+
+~~~lisp
+(기 / 기업
+    :mod (i / IT)
+    :example (등 / 등
+        :op1 (c / company :name (이 / 이름 :op1 "구글"))
+        :op2 (c2 / company :name (이2 / 이름 :op1 "IBM"))))
+~~~
+> 구글이나 IBM 등의 IT 기업들
 
 ### [`:direction`](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#direction)
 
