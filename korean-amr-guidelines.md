@@ -1512,7 +1512,7 @@ AMR의 원칙은 실제 단어의 품사를 따지기 보다 Korean PropBank의 
 >
 > 그는 성실하게 근무한다.
 
-## 형용사 파생이 될 수 있는 서술성 명사와 보조형용사 ([Adjectives that invoke predicates](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#adjectives-that-invoke-predicates))
+## 형용사 파생과 보조 형용사 ([Adjectives that invoke predicates](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#adjectives-that-invoke-predicates))
 
 "군인답다", "자유롭다", "어른스럽다", "행복하다", "감쪽같다", "맛있다"와 같이, '-답다', '-롭다', '-스럽다', '-하다', '-같다', '-있다' 등에 의한 형용사 파생이 가능한 명사들도 [동사 파생이 될 수 있는 서술성 명사]() 챕터에서 설명한 바와 같이 다룹니다.
 
