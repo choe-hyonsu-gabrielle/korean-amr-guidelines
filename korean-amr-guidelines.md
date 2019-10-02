@@ -1,10 +1,8 @@
 한국어 Abstract Meaning Representation (AMR) 가이드라인 1.0 (Release Candidate)
-[![Version](1.0)]
 =============================
 ***Korean Abstract Meaning Representation (AMR) Specification 1.0***
 
 + **Documentized: August 30, 2019**
-+ **Closed-review: September 18, 2019**
 + **Publicized: October 11, 2019**
 
 ***최현수, 한지윤, 박혜진, 오태환, 박석원, 김한샘,***
