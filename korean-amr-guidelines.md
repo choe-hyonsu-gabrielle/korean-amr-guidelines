@@ -1,9 +1,9 @@
-한국어 Abstract Meaning Representation (AMR) 가이드라인 1.0 (Release Candidate)
+한국어 Abstract Meaning Representation (AMR) 가이드라인 1.0
 =============================
 ***Korean Abstract Meaning Representation (AMR) Specification 1.0***
 
 + **Documentized: August 30, 2019**
-+ **Publicized: October 11, 2019**
++ **Released: October 11, 2019**
 
 ***최현수, 한지윤, 박혜진, 오태환, 박석원, 김한샘,***
 *김미경, 김영상, 노영빈, 류보람, 이보미, 장연지, 정진경, Fei Li*
