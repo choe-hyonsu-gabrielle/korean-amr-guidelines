@@ -1374,7 +1374,7 @@ AMR의 원칙은 실제 단어의 품사를 따지기 보다 Korean PropBank의 
     :ARG0 (g / government-organization :name (이 / 이름 :op1 "국방부"))
     :ARG1 (발 / 발표-01
         :ARG0 g)
-    :manner (거 / 거듭-00))
+    :manner (거 / 거듭하-00))
 ~~~
 > 국방부 발표 거듭 연기
 
