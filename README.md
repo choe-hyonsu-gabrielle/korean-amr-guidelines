@@ -6,4 +6,4 @@ korean-amr-guidelines.md is a localization of English AMR guidelines. We're look
 
 ### Citation
 
-+ Hyonsu Choe, Jiyoon Han, Hyejin Park, Taehwan Oh, Seokwon Park, Hansaem Kim. **"Korean Abstract Meaning Representation (AMR) Guidelines for Graph-structured Representations of Sentence Meaning."** *Proceedings of the 31th Annual Conference on Human and Cognitive Language Technology*, pp.252-257.
++ Hyonsu Choe, Jiyoon Han, Hyejin Park, Taehwan Oh, Seokwon Park, Hansaem Kim. (2019) **"Korean Abstract Meaning Representation (AMR) Guidelines for Graph-structured Representations of Sentence Meaning."** *Proceedings of the 31th Annual Conference on Human and Cognitive Language Technology*, pp.252-257.
