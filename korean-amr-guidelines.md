@@ -80,7 +80,7 @@
   - [개체명과 위키피케이션 (Named Entities and wikification)](#%EA%B0%9C%EC%B2%B4%EB%AA%85%EA%B3%BC-%EC%9C%84%ED%82%A4%ED%94%BC%EC%BC%80%EC%9D%B4%EC%85%98-named-entities-and-wikification)
   - [역할, 직위를 위한 특수 프레임 (Special Frames for Roles)](#%EC%97%AD%ED%95%A0-%EC%A7%81%EC%9C%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8A%B9%EC%88%98-%ED%94%84%EB%A0%88%EC%9E%84-special-frames-for-roles)
   - [정확한 수 (Exact numbers)](#%EC%A0%95%ED%99%95%ED%95%9C-%EC%88%98-exact-numbers)
-  - [대략적인 수 (Exact numbers)](#%EB%8C%80%EB%9E%B5%EC%A0%81%EC%9D%B8-%EC%88%98-exact-numbers)
+  - [대략적인 수 (Approximate numbers)](#%EB%8C%80%EB%9E%B5%EC%A0%81%EC%9D%B8-%EC%88%98-approximate-numbers)
   - [수량 (Quantities)](#%EC%88%98%EB%9F%89-quantities)
   - [수학 연산자 (Mathematical operators)](#%EC%88%98%ED%95%99-%EC%97%B0%EC%82%B0%EC%9E%90-mathematical-operators)
   - [기타 개체: 날짜, 시간, 백분율, 전화번호, 이메일, URL (Other entities: dates, times, percentages, phone, email, URLs)](#%EA%B8%B0%ED%83%80-%EA%B0%9C%EC%B2%B4-%EB%82%A0%EC%A7%9C-%EC%8B%9C%EA%B0%84-%EB%B0%B1%EB%B6%84%EC%9C%A8-%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8-%EC%9D%B4%EB%A9%94%EC%9D%BC-url-other-entities-dates-times-percentages-phone-email-urls)
@@ -3425,7 +3425,7 @@ AMR에서 수는 정규화됩니다.
 이런 식의 정규화는 아시아식 셈법(만 단위 기준)과 서양식 셈법(천 단위 기준) 사이의 일관된 주석을 가능하게 합니다.
 
 
-## 대략적인 수 ([Exact numbers](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#exact-numbers))
+## 대략적인 수 ([Approximate numbers](https://github.com/amrisi/amr-guidelines/blob/master/amr.md#approximate-numbers))
 
 근사값 등의 대략적인 수는 `:opN`을 활용합니다. ('수백'의 경우 하한점이 100이 되기 때문에 `:op1 100`입니다. 상한점은 특정할 수 없으니 표상하지 않습니다.)
 
