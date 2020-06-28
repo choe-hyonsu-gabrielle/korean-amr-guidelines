@@ -3921,8 +3921,8 @@ AMR과 관련 논문들을 찾아보고 싶다면, 아래 페이지에 정리가
 한국어 AMR 가이드라인의 일부 내용은 아래 논문을 토대로 합니다.
 + Hyonsu Choe, Jiyoon Han, Hyejin Park, Hansaem Kim. ["Copula and Case-Stacking Annotations for Korean AMR."](https://www.aclweb.org/anthology/papers/W/W19/W19-3314/) *Proceedings of the First International Workshop on Designing Meaning Representations* (2019)
 
-한국어 AMR 가이드라인은 [제가](mailto:choehyonsu@yonsei.ac.kr) 관리하고 있습니다. 한국어 AMR과 관련된 의견들을 기다립니다!
-+ ***[Hyonsu Gabrielle Choe](mailto:choehyonsu@yonsei.ac.kr)*** (연세대학교 언어정보연구원 언어관측소, 연세대학교 언어정보학협동과정 전산언어학 전공)
+한국어 AMR 가이드라인은 [제가](mailto:choehyonsu@gmail.com) 관리하고 있습니다. 한국어 AMR과 관련된 의견들을 기다립니다!
++ ***[Hyonsu Gabrielle Choe](mailto:choehyonsu@gmail.com)*** (연세대학교 언어정보연구원 언어관측소, 연세대학교 언어정보학협동과정 전산언어학 전공)
 
 한국어 AMR 가이드라인에 대한 인용은 아래의 논문을 기준으로 부탁드립니다.
 
