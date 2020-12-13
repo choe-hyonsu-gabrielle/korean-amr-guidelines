@@ -1,8 +1,6 @@
 # Korean AMR Guidelines 1.0
 
-### A localization of Abstract Meaning Representation 1.2.6 specification
-
-korean-amr-guidelines.md is a localization of English AMR guidelines. We're looking forward to release Korean AMR corpus ASAP! Every [contact](mailto:choehyonsu@yonsei.ac.kr) about Korean AMR will be welcomed with warmth.
+A localization & extended guidelines of Abstract Meaning Representation 1.2.6 specification
 
 ### Citation
 
